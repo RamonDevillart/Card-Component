@@ -1,0 +1,81 @@
+.product-card{
+    max-width: 1920px;
+    max-height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.row{
+    max-width: 767px;    
+}
+
+.product-card .col-image{
+    padding: 0;  
+}
+
+.product-card .image-background{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../assets/images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    border-radius: 1rem 0 0 1rem;
+    min-height: 100%;
+}
+.product-card .section{
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    min-height: 100%;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.product-card .section p{
+    margin-top: 0;
+}
+
+.product-card .section h1{
+    margin-top: 0;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.product-card .section div.prices{
+      display: flex;   
+      align-items: center;  
+}
+
+.product-card .section div.prices .current-price{
+    font-size: 3rem;   
+    margin-right: 1.5rem; 
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 700; 
+}
+
+
+
+
+@media (max-width: 747px){
+    .product-card{
+        max-width: 570px;
+         padding: 2.5rem 2.0rem !important;        
+    }
+
+    .product-card .col-image{
+        height: 370px;
+    }
+
+    .product-card .image-background{
+        background-image: url(../assets/images/image-product-mobile.jpg);
+        border-radius: 1rem 1rem 0 0;       
+    }
+
+    .product-card .section{
+        padding: 1.5rem 2rem;
+        background-color: #fff;
+        min-height: 100%;
+        border-radius: 0 0 1rem 1rem;
+    }
+}
