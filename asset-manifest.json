@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/RamonDevillart/card-component/static/css/main.b753fc21.css",
+    "main.js": "/RamonDevillart/card-component/static/js/main.762ad5e9.js",
+    "static/js/787.133a9d60.chunk.js": "/RamonDevillart/card-component/static/js/787.133a9d60.chunk.js",
+    "static/media/image-product-desktop.jpg": "/RamonDevillart/card-component/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "static/media/image-product-mobile.jpg": "/RamonDevillart/card-component/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
+    "index.html": "/RamonDevillart/card-component/index.html",
+    "main.b753fc21.css.map": "/RamonDevillart/card-component/static/css/main.b753fc21.css.map",
+    "main.762ad5e9.js.map": "/RamonDevillart/card-component/static/js/main.762ad5e9.js.map",
+    "787.133a9d60.chunk.js.map": "/RamonDevillart/card-component/static/js/787.133a9d60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b753fc21.css",
+    "static/js/main.762ad5e9.js"
+  ]
+}
